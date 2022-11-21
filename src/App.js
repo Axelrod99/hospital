@@ -27,9 +27,9 @@ function App() {
 
           <div className='flex justify-between p-10 flex-col sm:flex-row' id='one' >
             <div className='w-full flex flex-col justify-center'>
-              <p className='text=[#2F323D] font-bold sm:text-2xl md:text-3xl lg:text-4xl'>Your Online Medical Buddy </p>
-              <p className='py-4 lg:text-xl xl:text-2xl text-[#2F323D]'>Health-First provides excellent service by prioritizing the safety and security of patients.</p>
-              <div className='flex gap-3'>
+              <p className='text=[#2F323D] font-bold so:text-xl sm:text-2xl md:text-3xl'>Your Online Medical Buddy </p>
+              <p className='py-4 text-sm md:text-lg lg:text-xl xl:text-xl text-[#2F323D]'>Health-First provides excellent service by prioritizing the safety and security of patients.</p>
+              <div className='flex gap-3 text-xs sm:text-sm'>
                 <button className='bg-[#5271FF] hover:bg-blue-600 text-white font-semibold hover:text-white py-1 px-2 border border-blue-500 hover:border-transparent rounded'>Book appointment</button>
                 <button className='bg-transparent hover:bg-blue-600 text-blue-700 font-semibold hover:text-white py-1 px-2 border border-blue-500 hover:border-transparent rounded'>Specialists</button>
               </div>
@@ -65,7 +65,7 @@ function App() {
 
 
         <div className='bg-[#E7F0FF]'>
-          <div className='flex flex-col sm:flex-row w-full p-5 items-center py-14'>
+          <div className='flex flex-col sm:flex-row w-full p-5 items-center py-10'>
             <div className='w-full'>
               <img className='' src={surgeon}/>
             </div>
@@ -73,18 +73,18 @@ function App() {
             <div className='w-full p-5 flex flex-col justify-center'>
               <p className='text-sm flex flex-col font-semibold text-[#5271FF]'>About us</p>
               <p className=' font-semibold so:text-xl sm:text-2xl md:text-3xl mb-4'>Best Preventive, Safe & Medical Practices</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies venenatis commodo, sed integer at. Ut tortor, tempor integer vel ut amet.</p>
-              <div className='flex py-3'><button className='bg-blue-500 p-2 rounded-lg text-white'>Contact us</button></div>
+              <p className='text-sm md:text-lg lg:text-xl xl:text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies venenatis commodo, sed integer at. Ut tortor, tempor integer vel ut amet.</p>
+              <div className='flex py-3'><button className='bg-transparent hover:bg-blue-600 text-blue-700 font-semibold hover:text-white py-1 px-2 border border-blue-500 hover:border-transparent rounded'>Contact us</button></div>
             </div>
           </div>
 
-          <div className='px-10 py-10'>
-            <p className='flex justify-center font-semibold xo:text-2xl text-3xl py-2'>Simple steps for your solution</p>
-            <p className='text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accumsan sit vulputate mauris, et, libero, ipsum nullam in. Pellentesque in et pellentesque volutpat. Sed consequat urna </p>
+          <div className='px-10 py-5'>
+            <p className='flex justify-center font-semibold so:text-xl sm:text-2xl md:text-3xl py-2'>Simple steps for your solution</p>
+            <p className='text-sm md:text-lg lg:text-xl xl:text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accumsan sit vulputate mauris, et, libero, ipsum nullam in. Pellentesque in et pellentesque volutpat. Sed consequat urna </p>
           </div>
 
           <div className='my-4 mx-auto flex justify-around'>
-            <div className='grid grid-cols-2 md:grid-cols-4 gap-10'>
+            <div className='grid grid-cols-1 xo:grid-cols-2 md:grid-cols-4 gap-10'>
 
               <div className='bg-white rounded-md w-36 h-36 flex flex-col'>
                 <div className='flex justify-center py-2'>
@@ -139,23 +139,23 @@ function App() {
 
 
           
-        <div className='p-10 w-full flex'>
-          <div className='w-full'>
-            <p>We are always there for your healthy living.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies venenatis commodo, sed integer at. Ut tortor, tempor integer vel ut amet.</p>
-            <button className='bg-blue-200'>Contact us</button>
+        <div className='p-10 w-full flex flex-col sm:flex-row'>
+          <div className='w-full flex flex-col justify-center'>
+            <p className='py-2 font-semibold so:text-xl sm:text-2xl md:text-3xl'>We are always there for your healthy living.</p>
+            <p className='text-sm md:text-lg lg:text-xl xl:text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies venenatis commodo, sed integer at. Ut tortor, tempor integer vel ut amet.</p>
+            <div className='py-2'><button className='bg-transparent hover:bg-blue-600 text-blue-700 font-semibold hover:text-white py-1 px-2 border border-blue-500 hover:border-transparent rounded'>Contact us</button></div>
           </div>
 
           <div className='w-full'>
-            {/* <img className='absolute' src={Rectangle}/>
-            <img className='relative' src={doccy}/> */}
+            {/* <img className='absolute' src={Rectangle}/> */}
+            <img className='flex justify-center' src={doccy}/>
           </div>
         </div>
 
       </div>
 
 
-      <div className='bg-white flex w-full p-10 gap-5'>
+      <div className='bg-white flex flex-col sm:flex-row p-10 gap-5'>
           <div className='w-full'>
             <p className='text-xs my-3'>Need a consultation from our Doctors?</p>
             <p className='text-3xl font-semibold mb-3'>Request a Call Back Today</p>

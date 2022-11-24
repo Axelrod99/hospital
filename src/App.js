@@ -12,7 +12,7 @@ import facebook from './assets/icons/facebook.svg'
 import phone from './assets/icons/phone.svg'
 import stets from './assets/icons/stets.svg'
 import clinic from './assets/icons/Clinic.svg'
-import Rectangle from './assets/images/Rectangle.svg'
+// import Rectangle from './assets/images/Rectangle.svg'
 import doccy from './assets/images/doccy.svg'
 
 

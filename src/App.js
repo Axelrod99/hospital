@@ -18,14 +18,14 @@ import doccy from './assets/images/doccy.svg'
 
 function App() {
   return (
-    <div id=''>
+    <div>
 
       <section>
         <Header/>
 
         <div className='flex justify-around'>
 
-          <div className='flex justify-between p-10 flex-col sm:flex-row' id='one' >
+          <div className='flex justify-between p-5 flex-col sm:flex-row' id='one' >
             <div className='w-full flex flex-col justify-center'>
               <p className='text=[#2F323D] font-bold so:text-xl sm:text-2xl md:text-3xl'>Your Online Medical Buddy </p>
               <p className='py-4 text-sm md:text-lg lg:text-xl xl:text-xl text-[#2F323D]'>Health-First provides excellent service by prioritizing the safety and security of patients.</p>
